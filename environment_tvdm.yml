@@ -1,0 +1,30 @@
+name: tvdm
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - numpy
+  - scipy
+  - matplotlib
+  - scikit-learn
+  - pandas
+  - tqdm
+  - imageio
+  - imageio-ffmpeg
+  - opencv
+  - einops
+  - omegaconf
+  - pip:
+      - pytorch-lightning==2.0.7
+      - diffusers
+      - transformers
+      - accelerate
+      - decord
+      - timm
+      - kornia
+      - lpips
+      - moviepy
+      - open-clip-torch
+      - xformers
