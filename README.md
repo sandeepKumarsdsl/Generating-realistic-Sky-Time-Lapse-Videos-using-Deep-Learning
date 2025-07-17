@@ -43,10 +43,10 @@ It captures all the weather changes in the region `24/7`
 - [image-size] is `1600 * 1200` pixel resolution
 - contains `31,927,520` video clips of `16` frames.
 
-# Data structure
+### Data structure
 
 Datastructure describes how the two different datasets structures and stored into data frames.
-
+```
 /projects/
 ├── tvdm/
 │   └── datasets/
@@ -61,7 +61,7 @@ Datastructure describes how the two different datasets structures and stored int
             └── sky_webcams/
                 └── [location]/[yyyymmdd]/[hhmm.jpg]
 
-
+```
 ### Preparing Input Data
 
 The collected data need to be modified for them to be used as input to 
