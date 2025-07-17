@@ -5,7 +5,7 @@ Additionally, there are saved data in the subdirectories.
 
 Python is required to run these scripts.
 Please install it before running experiments.
-The scripts also use additional packages listed in [requirements](environment.yaml).
+The scripts also use additional packages listed in [requirements](environment_tvdm.yml).
 
 ## Creating Training Data 
 
